@@ -61,7 +61,7 @@ background-color: white;
 </head>
 <body id="body" >
   <nav>
-    <img src="img/logo.jpg" height="80px" width="86px alt="eroo" " >
+    <img src="img/logo.jpg" height="80px" width="86px" alt="eroo" title="">
   </nav>
   <header><h1 style="height: 10px;"
     > Eslam Bdran </h1>
@@ -99,11 +99,11 @@ background: black;">
         <form>
           <table>
               <tr>
-                  <td> <label>Email</label></td>
+                  <td> <label>Email</label><span style="color: red;">*</span></td>
                   <td><input type="email" name="email" placeholder="Enter Email" required oninvalid="error_message(this)" oninput="error_message(this)" /></td>
               </tr>
               <tr>
-                <td> <label>password</label></td>
+                <td> <label>password</label><span style="color: red;">*</span></td>
                   <td><input type="password" name="password" placeholder="Enter password" required oninvalid="error_message1(this)" oninput="error_message1(this)"/></td>
               </tr>
               <tr>
